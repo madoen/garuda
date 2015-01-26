@@ -1,4 +1,462 @@
-/**
- * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
- * remove this comment and start adding your styles to this file.
- */
+/*
+Custom override
+*/
+/* line 5, ../sass/garuda/style.scss */
+.topbar {
+  /*display: inherit;*/
+  background-color: #000;
+  opacity: 0.7;
+  float: left;
+  width: 100%;
+}
+
+/* line 12, ../sass/garuda/style.scss */
+.menu.nav.navbar-nav.secondary {
+  display: inline-flex;
+}
+/* line 14, ../sass/garuda/style.scss */
+.menu.nav.navbar-nav.secondary li.first a {
+  padding: 5px 5px;
+  text-transform: uppercase;
+  color: #fff;
+}
+/* line 21, ../sass/garuda/style.scss */
+.menu.nav.navbar-nav.secondary li.last a {
+  padding: 5px 5px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/* line 28, ../sass/garuda/style.scss */
+#header {
+  padding: 5px 15px;
+}
+
+/* line 31, ../sass/garuda/style.scss */
+.text-top {
+  color: #fff;
+  font-size: 13px;
+}
+
+/* line 35, ../sass/garuda/style.scss */
+#navbar {
+  background: url("header-top.jpg") no-repeat;
+  clear: both;
+}
+
+/* line 40, ../sass/garuda/style.scss */
+.navbar-collapse ul.links {
+  margin-left: 10%;
+}
+/* line 42, ../sass/garuda/style.scss */
+.navbar-collapse ul.links li {
+  display: inline-block;
+  float: left;
+  margin: 0;
+  padding: 0 15px;
+}
+/* line 47, ../sass/garuda/style.scss */
+.navbar-collapse ul.links li a {
+  color: #fff;
+  font-size: 18px;
+}
+
+/* line 54, ../sass/garuda/style.scss */
+.navbar-header img {
+  padding: 0 5px;
+}
+
+/* line 57, ../sass/garuda/style.scss */
+.navbar-collapse.in, .navbar-collapse.collapsing {
+  background-color: #000;
+}
+/* line 60, ../sass/garuda/style.scss */
+.navbar-collapse.in ul.links li, .navbar-collapse.collapsing ul.links li {
+  clear: both;
+  padding: 10px 0;
+}
+
+/* line 67, ../sass/garuda/style.scss */
+.top-header {
+  background: url("sun-cloud.jpg");
+  height: 350px;
+  color: #72491d;
+}
+
+/* line 72, ../sass/garuda/style.scss */
+.grei-bg {
+  background-color: #f4f4f4;
+  padding-bottom: 35px;
+}
+
+/* line 76, ../sass/garuda/style.scss */
+.yelows {
+  background-color: #f3b53d;
+  text-align: center;
+  display: block;
+  height: 160px;
+}
+
+/* line 82, ../sass/garuda/style.scss */
+.pinks {
+  background-color: #d70f81;
+  text-align: center;
+  display: block;
+  height: 160px;
+}
+
+/* line 88, ../sass/garuda/style.scss */
+.toskas {
+  background-color: #32bba6;
+  text-align: center;
+  display: block;
+  height: 160px;
+}
+
+/* line 94, ../sass/garuda/style.scss */
+.oranges {
+  background-color: #f05125;
+  text-align: center;
+  display: block;
+  height: 160px;
+}
+
+/* line 100, ../sass/garuda/style.scss */
+.nav > li > a:hover {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* line 104, ../sass/garuda/style.scss */
+.block:first-child h2.block-title {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 5px 0;
+}
+
+/* line 110, ../sass/garuda/style.scss */
+.galery-toska {
+  border-top: 10px solid #32bba6;
+  display: block;
+  text-align: center;
+  background-color: #fff;
+  -moz-box-shadow: 1px 1px 8px 5px #ccc;
+  -webkit-box-shadow: 1px 1px 8px 5px #ccc;
+  box-shadow: 1px 1px 8px 5px #ccc;
+  height: 550px;
+}
+/* line 119, ../sass/garuda/style.scss */
+.galery-toska img {
+  padding: 20px 0;
+}
+
+/* line 123, ../sass/garuda/style.scss */
+.galery-orange {
+  border-top: 10px solid #f05125;
+  display: block;
+  text-align: center;
+  background-color: #fff;
+  -moz-box-shadow: 1px 1px 8px 5px #ccc;
+  -webkit-box-shadow: 1px 1px 8px 5px #ccc;
+  box-shadow: 1px 1px 8px 5px #ccc;
+  height: 550px;
+}
+
+/* line 133, ../sass/garuda/style.scss */
+.galery-red {
+  border-top: 10px solid #d70f81;
+  display: block;
+  text-align: center;
+  background-color: #fff;
+  -moz-box-shadow: 1px 1px 8px 5px #ccc;
+  -webkit-box-shadow: 1px 1px 8px 5px #ccc;
+  box-shadow: 1px 1px 8px 5px #ccc;
+  height: 550px;
+}
+/* line 142, ../sass/garuda/style.scss */
+.galery-red img {
+  padding: 20px 0;
+}
+
+/* line 146, ../sass/garuda/style.scss */
+.contents {
+  padding: 10px;
+  font-size: 10px;
+  height: 470px;
+}
+/* line 151, ../sass/garuda/style.scss */
+.contents .region h2.block-title {
+  color: #2980b9;
+  font-size: 20px;
+}
+/* line 156, ../sass/garuda/style.scss */
+.contents .region #block-block-16 p {
+  background-color: #ec2727;
+  color: #fff;
+  padding: 5px;
+  font-size: 12px;
+  margin-top: 20%;
+  text-transform: uppercase;
+  float: right;
+}
+/* line 169, ../sass/garuda/style.scss */
+.contents .region.region-artdrup .block, .contents .region.region-stkasus .block {
+  float: left;
+}
+/* line 171, ../sass/garuda/style.scss */
+.contents .region.region-artdrup .block p, .contents .region.region-stkasus .block p {
+  text-align: justify;
+  color: grey;
+}
+/* line 175, ../sass/garuda/style.scss */
+.contents .region.region-artdrup .block h2.block-title, .contents .region.region-stkasus .block h2.block-title {
+  color: blue;
+  text-align: left;
+  font-size: 18px;
+}
+/* line 184, ../sass/garuda/style.scss */
+.contents .region.region-gallery2 #block-block-17 p {
+  background-color: #ec2727;
+  color: #fff;
+  padding: 5px;
+  font-size: 12px;
+  margin-top: 38%;
+  text-transform: uppercase;
+  float: right;
+}
+/* line 197, ../sass/garuda/style.scss */
+.contents .region.region-page-bottom2 #block-block-19 p {
+  background-color: #ec2727;
+  color: #fff;
+  padding: 5px;
+  font-size: 12px;
+  float: right;
+  text-transform: uppercase;
+}
+/* line 209, ../sass/garuda/style.scss */
+.contents .region.region-page-bottom3 #block-block-23 p {
+  background-color: #ec2727;
+  color: #fff;
+  padding: 5px;
+  font-size: 12px;
+  float: right;
+  text-transform: uppercase;
+  margin: 98px 0 0;
+}
+/* line 222, ../sass/garuda/style.scss */
+.contents .region.region-page-bottom4 #block-block-27 p {
+  background-color: #ec2727;
+  color: #fff;
+  padding: 5px;
+  font-size: 12px;
+  float: right;
+  text-transform: uppercase;
+  margin: 50px 0 0;
+}
+
+/* line 237, ../sass/garuda/style.scss */
+.imgtoska {
+  background-image: url("doc.png");
+  height: 56px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 15% 0;
+}
+
+/* line 244, ../sass/garuda/style.scss */
+.imgorange {
+  background-image: url("galeriweb.png");
+  height: 56px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 15% 0;
+}
+
+/* line 251, ../sass/garuda/style.scss */
+.imgred {
+  background-image: url("studikasus.png");
+  height: 56px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 15% 0;
+}
+
+/* line 258, ../sass/garuda/style.scss */
+.page-btm {
+  border-top: 5px solid #28a9e0;
+  background-color: #fff;
+  -moz-box-shadow: 1px 1px 10px 2px #ccc;
+  -webkit-box-shadow: 1px 1px 10px 2px #ccc;
+  box-shadow: 1px 1px 10px 2px #ccc;
+}
+
+/* line 265, ../sass/garuda/style.scss */
+.page {
+  color: #28a9e0;
+  text-align: center;
+  font-size: 20px;
+  background: url("line-body.png") no-repeat;
+  opacity: 0.5;
+  padding: 5px;
+}
+
+/* line 273, ../sass/garuda/style.scss */
+.grey-light {
+  background-color: #353535;
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
+}
+
+/* line 279, ../sass/garuda/style.scss */
+.foot-top-pink {
+  border-top: 5px solid #d70f81;
+  color: #7b7b7b;
+  margin-top: 10px;
+}
+
+/* line 284, ../sass/garuda/style.scss */
+.foot-top-yellow {
+  border-top: 5px solid #fcb315;
+  color: #7b7b7b;
+  margin-top: 10px;
+}
+
+/* line 289, ../sass/garuda/style.scss */
+.foot-top-toska {
+  border-top: 5px solid #32bba6;
+  color: #7b7b7b;
+  margin-top: 10px;
+}
+
+/* line 294, ../sass/garuda/style.scss */
+.foot-top-orange {
+  border-top: 5px solid #f05125;
+  color: #7b7b7b;
+  margin-top: 10px;
+}
+
+/* line 299, ../sass/garuda/style.scss */
+.line-foot {
+  background-image: url("line-footer.png");
+  height: 47px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 5% 0;
+}
+/* line 305, ../sass/garuda/style.scss */
+.line-foot img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+}
+
+/* line 312, ../sass/garuda/style.scss */
+.white-txt {
+  color: #fff;
+  margin: 30px 0;
+}
+
+/* line 316, ../sass/garuda/style.scss */
+.soc-med {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+/* line 320, ../sass/garuda/style.scss */
+.soc-med img {
+  padding: 0 5px;
+  cursor: pointer;
+  display: inline;
+}
+
+/* line 326, ../sass/garuda/style.scss */
+.fb {
+  background-image: url("fb.png");
+  height: 32px;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 16px;
+  border: 5px solid transparent;
+}
+
+/* line 334, ../sass/garuda/style.scss */
+.twit {
+  background-image: url("twitter.png");
+  height: 32px;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 16px;
+  border: 5px solid transparent;
+}
+
+/* line 342, ../sass/garuda/style.scss */
+.utube {
+  background-image: url("youtube.png");
+  height: 32px;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 16px;
+  border: 5px solid transparent;
+}
+
+/* line 350, ../sass/garuda/style.scss */
+.g {
+  background-image: url("g+.png");
+  height: 32px;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 16px;
+  border: 5px solid transparent;
+}
+
+/* line 358, ../sass/garuda/style.scss */
+.skype {
+  background-image: url("skype.png");
+  height: 32px;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 16px;
+  border: 5px solid transparent;
+}
+
+/* line 366, ../sass/garuda/style.scss */
+.github {
+  background-image: url("github.png");
+  height: 32px;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 16px;
+  border: 5px solid transparent;
+}
+
+/* line 374, ../sass/garuda/style.scss */
+.rss {
+  background-image: url("rss.png");
+  height: 32px;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 16px;
+  border: 5px solid transparent;
+}
+
+/* line 382, ../sass/garuda/style.scss */
+.copyrgt {
+  text-align: center;
+  padding: 30px 0;
+  color: #fff;
+}
+/* line 386, ../sass/garuda/style.scss */
+.copyrgt a {
+  font-size: 15px;
+  color: #fff;
+}
+
+/* line 391, ../sass/garuda/style.scss */
+.footer {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
